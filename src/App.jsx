@@ -8,8 +8,11 @@ import { Routes,Route, Navigate } from 'react-router-dom';
 import './App.css'
 import Contactlist from './Contactlist';
 import Addcontact from './Addcontact';
-import Viewcontact from './Viewcontact';
 import Editcontact from './Editcontact';
+import Landing from './Landing';
+import Footer from './Footer';
+import Learnmore from './Learnmore';
+import About from './About'; 
 
 function App() {
 
@@ -17,12 +20,17 @@ function App() {
     <>
   <Dashboard/>
   <Routes>
-    <Route path='/' element={<Contactlist/>}  />
+    <Route path='/' element={<Landing/>} />
     <Route path='/list' element={<Contactlist/>}/>
     <Route path='/add' element={<Addcontact/>}/>
-    <Route path='view' element={<Viewcontact/>}/>
     <Route path='/edit' element={<Editcontact/>}/>
+    <Route path='/learn' element={<Learnmore/>}/>
+    <Route path='/about' element={<About/>}/>
+
+
   </Routes>
+
+  <Footer/>
 
     </>
   )

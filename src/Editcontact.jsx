@@ -19,9 +19,6 @@ function Editcontact() {
           <input type="text" placeholder='First Name' className='form-control border-5'/>
           </div>
           <div className='mb-2 '>
-          <input type="text" placeholder='Last Name' className='form-control border-5'/>
-          </div>
-          <div className='mb-2 '>
           <input type="text" placeholder='Photo URL' className='form-control border-5'/>
           </div>
           <div className='mb-2 '>
