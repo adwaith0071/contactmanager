@@ -52,7 +52,7 @@ function Landing() {
                    </Card>
 
                    <Card className='p-0' style={{ width: '18rem' }}>
-                <Card.Img  variant="top p-0" src="https://www.svgimages.com/svg-image/s5/edit-contact-icon-256x256.png" />
+                <Card.Img  variant="top p-0" src="../images/pngtree-checked-sheet-survey-complete-vector-picture-image_10455066.png" />
                 <Card.Body>
                     <Card.Title className='text-center'>Edit Contacts</Card.Title>
                     <Card.Text style={{textAlign:'justify'}}>

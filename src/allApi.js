@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const base_url="https://contactmanagerserver-lcpu.onrender.com"
+const base_url="https://contserver.onrender.com"
 
 export const addContactapi=async(data)=>{
     return await axios.post(`${base_url}/contacts`,data)
