@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Dashboard from './Dashboard';
-import "./bootstrap.min.css"
-import { Routes,Route, Navigate } from 'react-router-dom';
+import { Routes,Route} from 'react-router-dom';
 
 
 import './App.css'
@@ -12,7 +11,7 @@ import Editcontact from './Editcontact';
 import Landing from './Landing';
 import Footer from './Footer';
 import Learnmore from './Learnmore';
-import About from './About'; 
+
 
 function App() {
 
@@ -25,7 +24,7 @@ function App() {
     <Route path='/add' element={<Addcontact/>}/>
     <Route path='/edit' element={<Editcontact/>}/>
     <Route path='/learn' element={<Learnmore/>}/>
-    <Route path='/about' element={<About/>}/>
+   
 
 
   </Routes>
