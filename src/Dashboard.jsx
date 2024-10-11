@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Dashboard() {
   return (
     <>
-      <Navbar expand="lg" className="bg-dark p-3" >
+      <Navbar expand="lg" className="bg-dark p-3" style={{height:'83px'}} >
       <Container >
       <Link style={{ textDecoration: 'none' }} to={'/'}>
             <a className="navbar-brand" href="#!" style={{ fontSize: '26px', fontWeight: 'bold', color:'whitesmoke' }}>

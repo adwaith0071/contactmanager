@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { addContactapi } from './allApi'
 
-
 function Addcontact() {
 
   const [add,setAdd]=useState({
@@ -60,7 +59,7 @@ function Addcontact() {
 
           <div className='mt-3 '>
             <button className='btn btn-info p-3 me-3' onClick={handleAdd}>Submit</button>
-            <Link to={'/list'} className='btn btn-danger p-3 ' >Go Back</Link>
+            <Link to={'/'} className='btn btn-danger p-3 ' >Go Back</Link>
 
           </div>
           
